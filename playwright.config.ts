@@ -32,7 +32,8 @@ export default defineConfig({
     
     /* Automatically capture a screenshot on test failure */
     screenshot: 'only-on-failure',
-    headless: false,
+     /* Run headfully locally for debugging, but headlessly on CI */
+    headless: process.env.CI ? true : false,
   },
 
   /* Configure projects for major browsers */
