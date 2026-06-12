@@ -1,0 +1,23 @@
+{
+  "name": "playwright-test",
+  "version": "1.0.0",
+  "description": "This test repository uses playwright to test a demo website.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunjandabral2712/playwright-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gunjandabral2712/playwright-test/issues"
+  },
+  "homepage": "https://github.com/gunjandabral2712/playwright-test#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.3"
+  }
+}
